@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/idGrid"
+        android:title="grid"
+        android:icon="@drawable/ic_grid"
+        android:visible="true"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        >
+
+    </item>
+    <item
+        android:id="@+id/idList"
+        android:title="List"
+        android:icon="@drawable/ic_action_name"
+        android:visible="true"
+        android:orderInCategory="101"
+        app:showAsAction="always"
+        >
+
+    </item>
+</menu>
