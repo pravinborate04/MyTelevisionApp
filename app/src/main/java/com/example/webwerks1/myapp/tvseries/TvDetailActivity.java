@@ -13,6 +13,7 @@ import android.widget.Switch;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.example.webwerks1.myapp.Constants;
 import com.example.webwerks1.myapp.DataBaseHelper;
 import com.example.webwerks1.myapp.R;
 import com.example.webwerks1.myapp.retro.RetrofitManager;
@@ -50,7 +51,7 @@ public class TvDetailActivity extends AppCompatActivity implements CompoundButto
         helper=new DataBaseHelper(this);
         results=getIntent().getParcelableExtra("tv");
         mFav.setChecked(helper.isTVInDatabase(results));
-        Glide.with(this).load("http://image.tmdb.org/t/p/w185/"+results.getBackdrop_path()).into(imageView);
+        Glide.with(this).load(Constants.POSTER_BASE_URL+results.getBackdrop_path()).into(imageView);
         txtTitle.setText(results.getOriginal_name());
         txtYear.setText(results.getFirst_air_date());
        /* txtPopularity.setText(results.getPopularity()+"");

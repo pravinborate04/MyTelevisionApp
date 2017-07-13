@@ -9,6 +9,7 @@ import android.widget.Switch;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.example.webwerks1.myapp.Constants;
 import com.example.webwerks1.myapp.DataBaseHelper;
 import com.example.webwerks1.myapp.R;
 
@@ -40,7 +41,7 @@ public class MovieDetailsActivity extends AppCompatActivity implements CompoundB
         mFav.setChecked(helper.isMovieInDatabase(results));
 
         Log.e("MovieDetail",results.getOriginal_title());
-        Glide.with(this).load("http://image.tmdb.org/t/p/w185/"+results.getBackdrop_path()).into(imageView);
+        Glide.with(this).load(Constants.POSTER_BASE_URL+results.getBackdrop_path()).into(imageView);
         txtTitle.setText(results.getTitle());
         txtYear.setText(results.getRelease_date());
        /* txtPopularity.setText(results.getPopularity()+"");

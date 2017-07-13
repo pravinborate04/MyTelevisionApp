@@ -1,0 +1,10 @@
+
+?squid:S1659"%Declare "txtYear" on a separate line.(ß“ÝÕþÿÿÿÿ
+Esquid:S1659"+Declare "txtPopularity" on a separate line.(ß“ÝÕþÿÿÿÿ
+Dsquid:S1659"*Declare "txtVoteCount" on a separate line.(ß“ÝÕþÿÿÿÿ
+Bsquid:S1659"(Declare "txtVoteAvg" on a separate line.(ß“ÝÕþÿÿÿÿ
+Bsquid:S1659"(Declare "txtDescptn" on a separate line.(ß“ÝÕþÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ëü‚ì
+`squid:HiddenFieldCheck";Rename "results" which hides the field declared at line 20.(ô¶†´ùÿÿÿÿ
+4squid:S2131"Use "Integer.toString" instead.(¢Õšâ
+bsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(Æ†î

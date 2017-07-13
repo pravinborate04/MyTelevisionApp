@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.example.webwerks1.myapp.Constants;
 import com.example.webwerks1.myapp.R;
 
 import java.util.List;
@@ -46,7 +47,7 @@ public class SeasonAdapter extends ArrayAdapter<Season> {
             holder = (SeasonViewHolder) convertView.getTag();
         }
 
-        Glide.with(mContext).load("http://image.tmdb.org/t/p/w185/"+seasonList.get(position).getPoster_path()).into(holder.imageView);
+        Glide.with(mContext).load(Constants.POSTER_BASE_URL+seasonList.get(position).getPoster_path()).into(holder.imageView);
         holder.txtAirDateSingleRow.setText(seasonList.get(position).getAir_date()+"");
         holder.txtEpisodeNumber.setText(seasonList.get(position).getEpisode_count()+"");
         holder.txtseasonNameSingleRow.setText(seasonList.get(position).getSeason_number()+"");

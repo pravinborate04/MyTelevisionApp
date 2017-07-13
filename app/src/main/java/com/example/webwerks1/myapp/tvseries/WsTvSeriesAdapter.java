@@ -14,6 +14,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.example.webwerks1.myapp.Constants;
 import com.example.webwerks1.myapp.R;
 
 import java.util.List;
@@ -48,7 +49,7 @@ public class WsTvSeriesAdapter extends RecyclerView.Adapter<WsTvSeriesAdapter.Tv
            holder.textView.setText(tvResultsList.get(position).getName());
        }
         if(tvResultsList.get(position).getPoster_path()!=null){
-            Glide.with(mContext).load("http://image.tmdb.org/t/p/w185/"+tvResultsList.get(position).getPoster_path())
+            Glide.with(mContext).load(Constants.POSTER_BASE_URL+tvResultsList.get(position).getPoster_path())
                     .into(holder.imageView);
         }else {
             holder.imageView.setImageResource(R.mipmap.ic_launcher);

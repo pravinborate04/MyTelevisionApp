@@ -1,0 +1,10 @@
+
+–squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹ïØÚ
+–squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.( ×Øø
+–squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(îñë‡
+lsquid:UselessImportCheck"ERemove this unused import 'android.support.v7.app.AppCompatActivity'.(«Û®ûüÿÿÿÿ
+3squid:S2131"Use "Integer.toString" instead.(¥¸È6
+9squid:S2131"Use "Integer.toString" instead.(…÷Ï£þÿÿÿÿ
+9squid:S2131"Use "Integer.toString" instead.(ùõÿøÿÿÿÿ
+Ssquid:S1155">Use isEmpty() to check whether the collection is empty or not.(”˜¸º
+csquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(¶Ž®š

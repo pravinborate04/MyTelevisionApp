@@ -1,0 +1,19 @@
+
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä¼Óîüÿÿÿÿ
+ksquid:S00116"URename this field "vote_count" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÓŞÿ
+nsquid:S00116"XRename this field "backdrop_path" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ŠÏŒ
+rsquid:S00116"\Rename this field "original_language" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼úç†
+ssquid:S00116"XRename this field "original_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã®ùáÿÿÿÿÿ
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×Úûø
+qsquid:S00116"VRename this field "poster_path" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛçşÆùÿÿÿÿ
+msquid:S00116"WRename this field "vote_average" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ùª‘
+osquid:S00116"TRename this field "genre_ids" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ×Œõıÿÿÿÿ
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢õá÷ÿÿÿÿÿ
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öš–Òşÿÿÿÿ
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äù³«
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…ïÓøÿÿÿÿ
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×¿ÿøÿÿÿÿ
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù·–»
+osquid:S00116"YRename this field "first_air_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çÍÔÕ
+fsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çÉ±7
+tsquid:S00116"YRename this field "origin_country" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üòáØşÿÿÿÿ

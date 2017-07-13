@@ -16,6 +16,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.example.webwerks1.myapp.Constants;
 import com.example.webwerks1.myapp.R;
 
 import java.util.List;
@@ -55,7 +56,7 @@ public class WsMoviesAdapter extends RecyclerView.Adapter<WsMoviesAdapter.WsMovi
             holder.textView.setVisibility(View.GONE);
         }
 
-        Glide.with(mContext).load("http://image.tmdb.org/t/p/w185/"+movies.get(position).getPoster_path())
+        Glide.with(mContext).load(Constants.POSTER_BASE_URL+movies.get(position).getBackdrop_path())
                 .into(holder.imageView);
         holder.linearLayout.setTag(movies.get(position));
 

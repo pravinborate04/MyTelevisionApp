@@ -1,0 +1,9 @@
+
+dsquid:CallToDeprecatedMethod"9Remove this use of "setDrawerListener"; it is deprecated.(ø¶Âßÿÿÿÿÿ
+?squid:S00108")Either remove or fill this block of code.(æÎà 
+?squid:S00108")Either remove or fill this block of code.(ó´®
+Dsquid:S00108")Either remove or fill this block of code.(Õó³÷úÿÿÿÿ
+Dsquid:S00108")Either remove or fill this block of code.(ê±›Ñüÿÿÿÿ
+lsquid:UselessImportCheck"ERemove this unused import 'android.support.v7.app.AppCompatActivity'.(«Û®ûüÿÿÿÿ
+>squid:S1940")Use the opposite operator ("!=") instead.(‡æñ±
+csquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(ð—Ê

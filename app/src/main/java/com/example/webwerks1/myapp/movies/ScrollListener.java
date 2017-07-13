@@ -13,10 +13,9 @@ import com.example.webwerks1.myapp.OnLoadMoreListener;
  */
 public class ScrollListener extends RecyclerView.OnScrollListener{
 
-    private int lastVisibleItem;
+     int lastVisibleItem;
     OnLoadMoreListener onLoadMoreListener;
     RecyclerView.LayoutManager mLayoutManager;
-    int page=1;
     int firstVisibleItem;
     public static boolean loading = true;
     int pastVisiblesItems, visibleItemCount, totalItemCount;
